@@ -29,7 +29,7 @@ describe 'Show page' do
     expect(page.status_code).to eq(200)
   end
 
-  it 'renders the first name ' do
+  it 'renders the first name in a h1 tag' do
     visit "students/#{@student.id}"
     expect(page).to have_css("h1", text: "Daenerys")
   end
