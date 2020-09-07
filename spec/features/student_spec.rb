@@ -31,5 +31,5 @@ describe 'Show page' do
 
   #
 
-  i#
+  #
 end
